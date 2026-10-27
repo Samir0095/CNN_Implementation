@@ -103,6 +103,7 @@ pituitary  → 3
 - **Torchvision**
 - **Scikit-learn**
 - **NumPy**
+- **Matplotlib**
 - **CNN / Deep Learning**
 
 ---
@@ -112,7 +113,7 @@ pituitary  → 3
 Make sure Python is installed, then install the required packages:
 
 ```bash
-pip install torch torchvision scikit-learn
+pip install torch torchvision scikit-learn matplotlib
 ```
 
 You can also install them individually:
@@ -121,6 +122,7 @@ You can also install them individually:
 pip install torch
 pip install torchvision
 pip install scikit-learn
+pip install matplotlib
 ```
 
 ---
@@ -319,6 +321,8 @@ optimizer = torch.optim.Adam(
 ---
 
 # 📊 Results
+
+![Training and Evaluation Results](training_results.png)
 
 The model was trained multiple times. Since the current script does not set a random seed, results can vary between runs.
 
